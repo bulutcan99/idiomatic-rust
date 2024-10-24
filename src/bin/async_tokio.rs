@@ -5,6 +5,7 @@ use tokio::{
     time::{sleep, Duration},
 };
 
+// tokio good for IO-bound tasks -> IO operations, network operations, file operations
 #[tokio::main]
 async fn main() {
     let start = tokio::time::Instant::now();
